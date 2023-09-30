@@ -13,7 +13,7 @@ public class FileService {
     }
 
     public void saveToScv(List<DataObject> dataObjectList) throws IOException {
-        File csvFile = new File("fuzzy_logic_2.csv");
+        File csvFile = new File("fuzzy_logic_6_variant.csv");
         FileWriter fileWriter = new FileWriter(csvFile);
         List<String> stringPoints = mapDataToStrings(dataObjectList);
         for (String stringPoint : stringPoints) {

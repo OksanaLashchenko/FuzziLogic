@@ -6,8 +6,8 @@ public class MainService {
 
     public static double FI_MAX = Math.toRadians(180);
     public static double FI_MIN = Math.toRadians(-180);
-    public static double OMEGA_MAX = Math.toRadians(20);
-    public static double OMEGA_MIN = Math.toRadians(-20);
+    public static double OMEGA_MAX = Math.toRadians(10);
+    public static double OMEGA_MIN = Math.toRadians(-10);
     public static double MU_MAX = Math.toRadians(5);
     public static double MU_MIN = Math.toRadians(-5);
     public static double DELTA_MU = 0.1;

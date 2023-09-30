@@ -7,7 +7,7 @@ public class DefaultFuzzyLogicService implements FuzzyLogicService {
         double hiStar = 0;
         int n = 1;
 
-        while (n < CHISLO_PRAVIL) {
+        while (n <= CHISLO_PRAVIL) {
             RuleLibrary2 ruleLibrary = new RuleLibrary2();
             double hi = ruleLibrary.getHi(n, fiWave, omegaWave, muWave);
                if (hiStar < hi) {
